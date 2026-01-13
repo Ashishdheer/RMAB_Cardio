@@ -1,0 +1,62 @@
+{
+  "core": [
+    "hadm_id",
+    "timestep",
+    "aug_id"
+  ],
+  "vitals": [
+    "hr",
+    "rr",
+    "spo2",
+    "sbp",
+    "dbp",
+    "mbp",
+    "si",
+    "pp"
+  ],
+  "labs": [
+    "lactate",
+    "creatinine",
+    "hemoglobin"
+  ],
+  "recency": [
+    "ts_lactate",
+    "ts_creatinine",
+    "ts_hemoglobin"
+  ],
+  "flags": [
+    "lactate_present",
+    "creatinine_present",
+    "hemoglobin_present",
+    "lactate_imputed",
+    "creatinine_imputed",
+    "hemoglobin_imputed"
+  ],
+  "target": "action",
+  "all_model_columns_ordered": [
+    "hadm_id",
+    "timestep",
+    "aug_id",
+    "hr",
+    "rr",
+    "spo2",
+    "sbp",
+    "dbp",
+    "mbp",
+    "si",
+    "pp",
+    "lactate",
+    "creatinine",
+    "hemoglobin",
+    "ts_lactate",
+    "ts_creatinine",
+    "ts_hemoglobin",
+    "lactate_present",
+    "creatinine_present",
+    "hemoglobin_present",
+    "lactate_imputed",
+    "creatinine_imputed",
+    "hemoglobin_imputed",
+    "action"
+  ]
+}
