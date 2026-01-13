@@ -6,6 +6,8 @@ The project models each patient as a restless arm whose health state evolves ove
 
 📌 The framework is evaluated on MIMIC-III ICU data, focusing on learning data-driven treatment policies under realistic clinical and budget constraints.
 
+
+
 🔬 Key Features
 
 🏥 Patient-as-Arm RMAB formulation
@@ -17,6 +19,8 @@ The project models each patient as a restless arm whose health state evolves ove
 ⚖️ Handles limited treatment budgets & delayed health effects
 
 🧪 Supports policy comparison, tuning, and ablation studies
+
+
 
 🎯 Research Objective
 
